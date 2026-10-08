@@ -1,0 +1,32 @@
+# Unreal Engine 5 - Ignorar generados / temporales
+Binaries/
+DerivedDataCache/
+Intermediate/
+Saved/
+Build/
+
+# Visual Studio / Rider / VSCode
+.vs/
+.vscode/
+.idea/
+*.sln
+*.suo
+*.opendb
+*.VC.db
+*.VC.opendb
+DerivedDataCache/
+
+# OS
+Thumbs.db
+Desktop.ini
+.DS_Store
+
+# Logs y crash
+*.log
+Crashes/
+
+# No ignorar nunca lo importante (por si algun patron global lo pilla)
+!*/Content/**/*.umap
+!*/Content/**/*.uasset
+!*/Config/*.ini
+!*.uproject
